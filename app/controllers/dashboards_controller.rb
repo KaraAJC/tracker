@@ -4,6 +4,7 @@ class DashboardsController < ApplicationController
   expose(:dashboard) { DashboardView.new(current_user) }
   expose(:buttons)   { Buttons.new }
   expose(:labels)    { Labels.new }
+  expose(:friends) { Friends.new(current_user) }
 
   def create
     params.permit!

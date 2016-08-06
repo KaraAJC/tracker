@@ -39,7 +39,7 @@
             %p
               %strong
                 = labels.ask_me_about
-            %p 3</p>
+            %p 3
             %button.btn
               = buttons.update
         .col-sm-4
@@ -47,7 +47,7 @@
             %p
               %strong
                 = labels.meet_me_for
-            %p 3</p>
+            %p 3
             %button.btn
               = buttons.update
         .col-sm-4
@@ -55,7 +55,8 @@
             %p
               %strong
                 = labels.friends
-            %p 10</p>
+            %p
+              = friends.count
             %button.btn
-              = buttons.update
+              = link_to buttons.update,  friends_path
 
