@@ -28,3 +28,5 @@ omniauth.rb
 /config/secrets.yml
 secrets.yml
 
+# Ignore rbenv versioning
+.ruby-version
