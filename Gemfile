@@ -40,6 +40,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
   gem 'pry-rails', '~> 0.3.4'
+  gem 'shoulda-matchers'
 end
 
 group :development do
